@@ -91,6 +91,8 @@ import random
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 ```
+![Screenshot 2024-02-15 130641](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/657e161c-be5b-44d5-8b9e-000a9f5e0b1c)
+
 ![image](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/16bc9ccf-3e76-48c5-be6e-525f33481336)
 
 
@@ -106,6 +108,9 @@ import random
   cv2.waitKey(0)
   cv2.destroyAllWindows()
 ```
+
+![Screenshot 2024-02-15 130948](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/7ffe4b36-c8d7-4902-a3a1-e9720647682e)
+
 ![image](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/55d4b30d-eb08-41e2-917c-12421d56e475)
 
 ### vi) BGR and RGB to HSV and GRAY
@@ -131,6 +136,9 @@ cv2.imshow('RGB2GRAY',gray2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+
+![Screenshot 2024-02-15 131128](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/a3006cdb-b35a-419c-8f88-a986de2072c4)
+
 ![Screenshot 2024-02-15 093233](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/cc62b399-3a2b-4fdf-8083-4ba55990d25c)
 
 
@@ -153,6 +161,8 @@ cv2.imshow('HSV2RGB',BGR)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![Screenshot 2024-02-15 131211](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/88206ce0-702d-4986-aa3c-ad55dc8fc5b5)
+
 ![Screenshot 2024-02-15 094233](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/61f824ad-b53d-47c5-adce-76572eb41d2a)
 
 
@@ -173,6 +183,8 @@ cv2.imshow('BGR-2-YCrCb',YCrCb2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![Screenshot 2024-02-15 131312](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/57380cdc-e99a-480f-82a9-5fa8600afc0a)
+
 ![Screenshot 2024-02-15 094514](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/4d99ec3c-85c2-46cc-874c-b417de42929e)
 
 
@@ -196,6 +208,8 @@ cv2.imshow('Merged RGB image',merged)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![Screenshot 2024-02-15 131359](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/90f840e4-7d15-435a-8e06-17513b052240)
+
 ![Screenshot 2024-02-15 095036](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/f66751f7-ec00-406d-894a-5d84df99c50f)
 
 ### x) Split and merge HSV Image
@@ -217,6 +231,8 @@ cv2.imshow('Merged',merged)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![Screenshot 2024-02-15 131434](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/257b3f94-b302-4733-a559-ffb17387b339)
+
 ![Screenshot 2024-02-15 095145](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/5415b9f6-092d-42fa-a288-30c25c2025c9)
 
 
