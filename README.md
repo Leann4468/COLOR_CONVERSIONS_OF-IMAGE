@@ -44,8 +44,19 @@ Split and merge HSV Image
 
 ### i) Read and display the image
 
-<br>
-<br>
+```python
+    import cv2
+    image=cv2.imread('dog.jpg',1)
+    image=cv2.resize(image,(300,300))
+    cv2.imshow('leann',image)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+```
+```
+
+![image](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/47dfcd22-eadc-4a1a-967a-4439064d1450)
+
+```
 
 ### ii)Write the image
 
