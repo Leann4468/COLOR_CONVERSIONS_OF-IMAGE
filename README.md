@@ -52,11 +52,7 @@ Split and merge HSV Image
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 ```
-```
-
 ![image](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/47dfcd22-eadc-4a1a-967a-4439064d1450)
-
-```
 
 ### ii)Write the image
 
