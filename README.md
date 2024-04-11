@@ -1,4 +1,4 @@
-# COLOR_CONVERSIONS_OF-IMAGE
+# EX 01 COLOR_CONVERSIONS_OF-IMAGE
 ## AIM
 To write a python program using OpenCV to do the following image manipulations.
 
@@ -46,41 +46,40 @@ Split and merge HSV Image
 
 ```python
     import cv2
-    image=cv2.imread('dog.jpg',1)
-    image=cv2.resize(image,(300,300))
+    image=cv2.imread('leann.jpg',1)
+    image=cv2.resize(image,(350,350))
     cv2.imshow('leann',image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 ```
-![Screenshot 2024-02-15 130442](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/297bcca7-d450-4dd4-a209-e2fd4dd0f566)
+![image](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/b58a37d6-394f-4c70-8cb0-6728a303c5be)
 
-![image](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/47dfcd22-eadc-4a1a-967a-4439064d1450)
+![image](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/3a295951-b16c-40ce-b28e-17d298db776f)
 
 ### ii)Write the image
 
 ```python
     import cv2
-    image=cv2.imread('dog.jpg',0)
+    image=cv2.imread('leann.jpg',0)
     cv2.imwrite('demos.jpg',image)
 ```
-![Screenshot 2024-02-15 092418](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/51d0e6b2-d4df-4788-aad9-b915cec7f607)
+![image](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/830612e6-cc8d-414d-89c7-47d39b393354)
 
 ### iii)Shape of the Image
 
 ```python
     import cv2
-    image=cv2.imread('dop.jpg',1)
+    image=cv2.imread('leann.jpg',1)
     print(image.shape)
 ```
-![image](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/ae32dcb6-54eb-4ce5-8c66-03d25335920a)
-
+![image](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/722e4690-858e-4dc3-b4a8-a8e63dbf28a1)
 
 ### iv)Access rows and columns
 
 ```python
 import random
     import cv2
-    image=cv2.imread('dog.jpg',1)
+    image=cv2.imread('leann.jpg',1)
     image=cv2.resize(image,(500,500))
     for i in range (250,500):
       for j in range(image.shape[1]):
@@ -91,16 +90,16 @@ import random
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 ```
-![Screenshot 2024-02-15 130641](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/657e161c-be5b-44d5-8b9e-000a9f5e0b1c)
+![image](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/6017b4df-8b4c-45b0-b2cc-e89c747089f2)
 
-![image](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/16bc9ccf-3e76-48c5-be6e-525f33481336)
+![image](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/d88010e9-6c92-42f9-b88c-c7c3c37c2b07)
 
 
 ### v)Cut and paste portion of image
 
 ```python
   import cv2
-  image=cv2.imread('dog.jpg',1)
+  image=cv2.imread('leann.jpg',1)
   image=cv2.resize(image,(300,300))
   tag =image[150:200,110:160]
   image[110:160,150:200] = tag
@@ -108,16 +107,16 @@ import random
   cv2.waitKey(0)
   cv2.destroyAllWindows()
 ```
+![image](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/86d8e04c-824e-42d8-83b9-5cb3524c375c)
 
-![Screenshot 2024-02-15 130948](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/7ffe4b36-c8d7-4902-a3a1-e9720647682e)
+![image](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/dc06e3f5-a8d3-4ea6-8d5d-1129843a0d46)
 
-![image](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/55d4b30d-eb08-41e2-917c-12421d56e475)
 
 ### vi) BGR and RGB to HSV and GRAY
 
 ```python
 import cv2
-img = cv2.imread('dog.jpg',1)
+img = cv2.imread('leann.jpg',1)
 img = cv2.resize(img,(200,200))
 cv2.imshow('Original Image',img)
 
@@ -137,16 +136,15 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
-![Screenshot 2024-02-15 131128](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/a3006cdb-b35a-419c-8f88-a986de2072c4)
+![image](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/4d0d1f92-c7ca-4ce0-96f1-01f875461504)
 
-![Screenshot 2024-02-15 093233](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/cc62b399-3a2b-4fdf-8083-4ba55990d25c)
-
+![image](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/9777c928-03c2-4dbf-b6a6-af241a687275)
 
 ### vii) HSV to RGB and BGR
 
 ```python
 import cv2
-img = cv2.imread('dog.jpg')
+img = cv2.imread('leann.jpg')
 img = cv2.resize(img,(200,200))
 
 img = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
@@ -161,16 +159,15 @@ cv2.imshow('HSV2RGB',BGR)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![Screenshot 2024-02-15 131211](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/88206ce0-702d-4986-aa3c-ad55dc8fc5b5)
+![image](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/c33ff51b-495d-4d4b-8cac-f9f02d0740b8)
 
-![Screenshot 2024-02-15 094233](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/61f824ad-b53d-47c5-adce-76572eb41d2a)
-
+![image](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/a515cb34-389a-4508-811f-ce7b4a10bc9f)
 
 ### viii) RGB and BGR to YCrCb
 
 ```python
 import cv2
-img = cv2.imread('dog.jpg')
+img = cv2.imread('leann.jpg')
 img = cv2.resize(img,(200,200))
 cv2.imshow('Original RGB Image',img)
 
@@ -183,15 +180,16 @@ cv2.imshow('BGR-2-YCrCb',YCrCb2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![Screenshot 2024-02-15 131312](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/57380cdc-e99a-480f-82a9-5fa8600afc0a)
+![image](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/6e0291ea-548f-4f5b-8bbe-aa99f21c8cae)
 
-![Screenshot 2024-02-15 094514](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/4d99ec3c-85c2-46cc-874c-b417de42929e)
+![image](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/93cf18ae-1315-4ebe-970a-2ac12f871630)
+
 
 
 ### ix) Split and merge RGB Image
 ```python
 import cv2
-img = cv2.imread('dog.jpg',1)
+img = cv2.imread('leann.jpg',1)
 img = cv2.resize(img,(200,200))
 
 R = img[:,:,2]
@@ -208,14 +206,14 @@ cv2.imshow('Merged RGB image',merged)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![Screenshot 2024-02-15 131359](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/90f840e4-7d15-435a-8e06-17513b052240)
+![image](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/aa0b6730-0e6a-4b10-a7c0-eb6323955c85)
 
-![Screenshot 2024-02-15 095036](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/f66751f7-ec00-406d-894a-5d84df99c50f)
+![image](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/b3d37cd7-ffde-4b01-8514-4f911c071a62)
 
 ### x) Split and merge HSV Image
 ```python
 import cv2
-img = cv2.imread("dog.jpg",1)
+img = cv2.imread("leann.jpg",1)
 img = cv2.resize(img,(200,200))
 img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)
 
@@ -231,9 +229,9 @@ cv2.imshow('Merged',merged)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![Screenshot 2024-02-15 131434](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/257b3f94-b302-4733-a559-ffb17387b339)
+![image](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/54797a72-6a3f-43e4-a5a6-26283f90d4b2)
 
-![Screenshot 2024-02-15 095145](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/5415b9f6-092d-42fa-a288-30c25c2025c9)
+![image](https://github.com/Leann4468/COLOR_CONVERSIONS_OF-IMAGE/assets/121165979/75b4ba0e-f372-47ff-bdad-22204f591b48)
 
 
 ## Result:
